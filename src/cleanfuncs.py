@@ -196,3 +196,34 @@ def no_dots(x):
         return  np.nan
     else:
         pass
+
+
+def Ct_to_tag(x):
+    '''
+    This function returns the 3 letter code asociated to a
+    Country name if a coincidence is found
+    '''
+    if x == 'Alemania':
+        return 'GER'
+    elif x == 'Reino Unido':
+        return 'GBR'
+    elif x == 'Países Bajos':
+        return 'NLD'
+    elif x == 'Irlanda':
+        return 'IRL'
+    elif x == 'Suecia':
+        return 'SWE'
+    elif x == 'Bélgica':
+        return 'BEL'
+    elif x == 'Italia':
+        return 'ITA'
+    elif x == 'Francia':
+        return 'FRA'
+    elif x == 'República Checa':
+        return 'CZE'
+    elif x == 'Polonia':
+        return 'PLN'
+    elif x == 'Suiza':
+        return 'SWI'
+    elif x == 'Dinamarca':
+        return 'DEN'
